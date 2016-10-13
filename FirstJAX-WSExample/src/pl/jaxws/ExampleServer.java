@@ -10,7 +10,9 @@ import javax.jws.soap.SOAPBinding.Style;
  * @author Hubert
  */
 @WebService // informs that this is SEI - service endpoint interface
-@SOAPBinding(style = Style.RPC) // impacts service contract
+@SOAPBinding(style = Style.RPC) // impacts service contract 
+								// RPC for simple data type
+								// DOCUEMENT for rich data type
 public interface ExampleServer {
 
 	@WebMethod // informs, that method is service operation
