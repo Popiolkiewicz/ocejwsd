@@ -1,0 +1,4 @@
+GET /predictions/ HTTP/1.1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) Chrome/24.0.1312.56
+Host: localhost:8080
+Accept: text/html
