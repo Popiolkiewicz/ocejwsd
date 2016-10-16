@@ -1,8 +1,9 @@
-HTTP/1.1 200 OK
-Server: Apache-Coyote/1.1
+HTTP/1.1 200 OK <!-- http version/numerical status code/ status code in english -->
+Server: Apache-Coyote/1.1 <!-- server name sending response -->
 Set-Cookie: JSESSIONID=35B1E3AA21EB7242FD2FC50044D2166A; Path=/predictions/;
-Content-Type: text/html;charset=ISO-8859-1
+Content-Type: text/html;charset=ISO-8859-1 <!-- response type/charset -->
 Transfer-Encoding: chunked
+<!-- body? -->
 <?xml version="1.0" encoding="UTF-8"?>
 <java version="1.7.0" class="java.beans.XMLDecoder">
  <array class="predictions.Prediction" length="32">
